@@ -1,0 +1,48 @@
+
+/* Uncomment below if images are way too big.
+Selects all image tags and makes them 500px;
+ */
+/*img {*/
+/*  width: 500px;*/
+/*}*/
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #111;
+  margin: 1em 0;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+.content{
+  margin-left: 5em;
+  margin-right: 5em;
+  display: flex;
+}
+.items{
+  display: flex;
+  flex-wrap: wrap;
+}
+.items-image{
+  height: 300px;
+  width: 300px;
+  margin-left: 50px;
+}
+.items-image2{
+  height: 300px;
+  width: 300px;
+  margin-left: 50px;
+  margin-top: -8px;
+}
+.checkout{
+  margin-left: 30em;
+}
